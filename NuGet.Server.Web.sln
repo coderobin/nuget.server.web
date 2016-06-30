@@ -5,6 +5,11 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGet.Server.Web", "NuGet.Server.Web\NuGet.Server.Web.csproj", "{AA1C1198-2B9C-4AC2-86AE-7F8027CBCAB8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hostconfig", "hostconfig", "{0997E3F9-CA61-4208-B4E1-7EDF5CDD250D}"
+	ProjectSection(SolutionItems) = preProject
+		hostconfig\applicationhost.config = hostconfig\applicationhost.config
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
