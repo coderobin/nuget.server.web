@@ -1,14 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGet.Server.Web", "NuGet.Server.Web\NuGet.Server.Web.csproj", "{AA1C1198-2B9C-4AC2-86AE-7F8027CBCAB8}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hostconfig", "hostconfig", "{0997E3F9-CA61-4208-B4E1-7EDF5CDD250D}"
-	ProjectSection(SolutionItems) = preProject
-		hostconfig\applicationhost.config = hostconfig\applicationhost.config
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGet.Server.Web", "NuGet.Server.Web\NuGet.Server.Web.csproj", "{27225A72-9DE3-4EE2-AA2A-2B51BAABB520}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,12 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AA1C1198-2B9C-4AC2-86AE-7F8027CBCAB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AA1C1198-2B9C-4AC2-86AE-7F8027CBCAB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AA1C1198-2B9C-4AC2-86AE-7F8027CBCAB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AA1C1198-2B9C-4AC2-86AE-7F8027CBCAB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27225A72-9DE3-4EE2-AA2A-2B51BAABB520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27225A72-9DE3-4EE2-AA2A-2B51BAABB520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27225A72-9DE3-4EE2-AA2A-2B51BAABB520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27225A72-9DE3-4EE2-AA2A-2B51BAABB520}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F79B773E-2C22-4B56-B46A-955F5A5E04D4}
 	EndGlobalSection
 EndGlobal
