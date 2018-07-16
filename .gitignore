@@ -157,6 +157,8 @@ PublishScripts/
 **/packages/*
 # except build/, which is used as an MSBuild target.
 !**/packages/build/
+# Unique case that NuGet.Server has a directory named "Packages", with a single txt file inside
+!NuGet.Server.Web/Packages/Readme.txt
 # Uncomment if necessary however generally it will be regenerated when needed
 #!**/packages/repositories.config
 # NuGet v3's project.json files produces more ignoreable files
