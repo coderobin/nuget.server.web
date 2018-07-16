@@ -135,6 +135,7 @@
   <ItemGroup>
     <Content Include="applicationhost.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <None Include="packages.config">
       <SubType>Designer</SubType>
